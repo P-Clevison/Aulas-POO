@@ -3,9 +3,10 @@ package br.edu.unasp.main.first_class;
 
 public class Estojo {
 	public int capacity;
+	public int fullCapacity;
 	
 	public boolean isFull() {
-		if (this.capacity == 10) {
+		if (this.capacity == fullCapacity) {
 			System.out.println("O estojo esta cheio");
 			return true;
 		} else {
@@ -13,4 +14,5 @@ public class Estojo {
 			return false;
 		}
 	}
+	
 }
