@@ -2,9 +2,9 @@
 package br.edu.unasp.main.first_class;
 
 public class Caneta {
-	public int carga;
-	public boolean tampada;
-	public String cor;
+	private int carga;
+	private boolean tampada;
+	protected String cor;
 	
 	
 	public void destampar() {

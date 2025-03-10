@@ -4,7 +4,7 @@ package br.edu.unasp.main.first_class;
 public class First_Class {
 
 	public static void main(String[] args) {
-		System.out.println("Comecamos a brinca de POO");
+		System.out.println("Comecamos a brincar de POO");
 		
 		Caneta caneta1 = new Caneta();
 		caneta1.cor = "preta";
