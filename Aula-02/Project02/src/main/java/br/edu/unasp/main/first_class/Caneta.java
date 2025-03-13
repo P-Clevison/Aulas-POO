@@ -10,10 +10,11 @@ public class Caneta /* implements ItemDeEscrita */ {
 	
 	
 	public Caneta criarCaneta(String newCor, String newTipoPonta){
-		this.carga = 100;
+		this.carga = 105;		//permite inserir valor incorreto
+		//this.setCarga(105);	//valida e evita valor incorreto
 		this.tampada = true;
 		this.cor = newCor;
-		this.tipoItem = "Caneta";
+		this.tipoItem = "QuadroBranco";
 		this.tipoPonta = newTipoPonta;
 		
 		return this;
@@ -27,7 +28,7 @@ public class Caneta /* implements ItemDeEscrita */ {
 		} else {
 			System.out.println("A caneta esta destampada");
 			}
-		System.out.println("Este item e uma Caneta");
+		System.out.println("Este item e " + this.tipoItem);
 		System.out.println("A ponta desta caneta e " + this.tipoPonta);
 	}
 	
