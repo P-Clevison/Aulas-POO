@@ -1,14 +1,14 @@
 
 package br.edu.unasp.main.first_class;
 
-public class Caneta /* implements ItemDeEscrita */ {
+public class Caneta /*implements ItemDeEscrita */ {
 	protected int carga;
 	private boolean tampada;
 	private String cor;
 	private String tipoItem;
 	private String tipoPonta;
 	
-	
+	// Métodos próprios
 	public Caneta criarCaneta(String newCor, String newTipoPonta){
 		this.carga = 105;		//permite inserir valor incorreto
 		//this.setCarga(105);	//valida e evita valor incorreto
@@ -36,10 +36,6 @@ public class Caneta /* implements ItemDeEscrita */ {
 		return this.tampada;
 	}
 
-	public int getCarga() {
-		return this.carga;
-	}
-	
 	public String getCor() {
 		return this.cor;
 	}

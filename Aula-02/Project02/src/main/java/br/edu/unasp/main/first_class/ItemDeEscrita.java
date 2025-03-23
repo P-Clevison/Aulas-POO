@@ -4,5 +4,4 @@ public interface ItemDeEscrita {
 	public abstract void pegar();
 	public abstract void escrever();
 	public abstract void testar();
-	public abstract void guardar();
 }
