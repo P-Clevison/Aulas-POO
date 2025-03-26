@@ -15,7 +15,7 @@ Opcional: Um construtor que inicialize todos os atributos, incluindo o departame
 6. Instancie objetos das classes Gerente /* e Desenvolvedor */ com dados fictícios.
 7. Use o método exibirInformacoes para exibir as informações desses funcionários.
 
----//---
+---
 8. Crie uma classe chamada Desenvolvedor que herde da classe Funcionario. Esta classe deverá incluir:
 Um atributo adicional linguagem (String): a linguagem de programação do desenvolvedor.
 Opcional: Um construtor que inicialize todos os atributos, incluindo a linguagem.
