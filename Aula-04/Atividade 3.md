@@ -1,5 +1,5 @@
-Atividade aula 04 - Herança
-Crie um programa que simule uma empresa usando os passos abaixo:
+## Atividade aula 04 - Herança
+### Crie um programa que simule uma empresa usando os passos abaixo:
 1. Criação da Classe mãe (Funcionario):
 Crie uma classe chamada Funcionario que contenha os seguintes atributos protegidos:
 nome (String): o nome do funcionário.
