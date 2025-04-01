@@ -1,4 +1,3 @@
-
 package br.edu.unasp.main.empresa;
 
 public class Funcionario {
@@ -11,6 +10,8 @@ public class Funcionario {
 		this.idade = idade;
 		this.salario = salario;
 	}
+
+
 
 
     public void exibirInformacoes() {

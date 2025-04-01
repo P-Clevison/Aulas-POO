@@ -14,4 +14,5 @@ public class Gerente extends Funcionario {
         super.exibirInformacoes();
         System.out.println("Departamento: " + departamento);
     }
+	
 }
