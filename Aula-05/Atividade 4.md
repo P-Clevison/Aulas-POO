@@ -1,7 +1,7 @@
 # 4. Polimorfismo
 
 ### 4a. por Sobreposição
-1. Crie uma classe base Notificacao com um método enviarMensagem(), que imprime "Enviando notificação..."
+1. Crie uma classe base Notificacao abstrata com um método enviarMensagem(), que imprime "Enviando notificação..."
 2. Crie duas subclasses: EmailNotificacao e SMSNotificacao
 3. Nas subclasses, sobrescreva o método enviarMensagem() para exibir mensagens diferentes:
 - EmailNotificacao: "Enviando notificação por e-mail..."
