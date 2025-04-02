@@ -13,5 +13,5 @@
 2. Adicione um método calcularArea() sobrecarregado para calcular a área de:
 - Um quadrado (recebendo um único parâmetro lado).
 - Um retângulo (recebendo dois parâmetros base e altura).
--  Um círculo (recebendo o raio e usando Math.PI * raio * raio).
+-  Um círculo (recebendo o raio e PI).
 3. No main, instancie a classe CalculadoraArea e chame calcularArea() para cada forma geométrica.
