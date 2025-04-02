@@ -6,7 +6,7 @@
 3. Nas subclasses, sobrescreva o método enviarMensagem() para exibir mensagens diferentes:
 - EmailNotificacao: "Enviando notificação por e-mail..."
 - SMSNotificacao: "Enviando notificação por SMS..."
-4. No método main, crie um array de objetos Notificacao e armazene instâncias de EmailNotificacao e SMSNotificacao. Chame enviarMensagem() para cada objeto e observe a execução do polimorfismo.
+4. No método main, crie 2 variáveis (ou um array de objetos Notificacao) e armazene instâncias de EmailNotificacao e SMSNotificacao. Chame enviarMensagem() para cada objeto e observe a execução do polimorfismo.
 ---
 ### 4b por sobrecarga
 1. Crie uma classe CalculadoraArea.
