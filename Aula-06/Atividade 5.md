@@ -5,7 +5,8 @@ Criar um sistema orientado a objetos em Java que simule partidas entre 4 times d
 
 ### Etapa 1: Modelagem das Classes
 Tarefas:
-1. Criar a classe Time
+
+#### 1. Criar a classe Time
 
 **Atributos:**
 - nome
@@ -18,10 +19,9 @@ Tarefas:
 - Construtor
 - registrarVitoria(int golsFeitos, int golsSofridos)
 - registrarDerrota(int golsFeitos, int golsSofridos)
-- registrarEmpate(int gols) (atualiza apenas os gols)
-- Getters (opcional)
+- Getters/Setters (opcional)
 
-2. Criar a classe Partida
+#### 2. Criar a classe Partida
 
 **Atributos:**
 - timeCasa
@@ -34,15 +34,22 @@ Tarefas:
 - jogarPartida(int golsCasa, int golsVisitante)  
     // imprime o resultado e atualiza os times
 
-3. Criar a classe Torneio
+#### 3. Criar a classe Torneio
 
-* Atributos:
-1. timePrimeiroLugar
-1. timeSegundoLugar
-1. timeTerceiroLugar
+**Atributos:**
+- timePrimeiroLugar
+- timeSegundoLugar
+- timeTerceiroLugar
 
-* Métodos:
-1. adicionarTime(Time time)      // Cadastra o time no Torneio
-1. agendarPartidas()             // Agenda partidas entre os times 1 e 2, 3 e 4, vencedor 1 x vencedor 2
-1. iniciarTorneio()              // Realiza as partidas entre os times e preenche os atributos do Torneio
-1. exibirClassificacao()         // Exibe os resultados
+**Métodos:**
+- adicionarTime(Time time)  
+    // Cadastra o time no Torneio
+- agendarPartidas()  
+    // Agenda partidas entre os times 1 e 2, 3 e 4, vencedor 1 x vencedor 2
+- iniciarTorneio()  
+    // Realiza as partidas entre os times e preenche os atributos do Torneio
+- exibirClassificacao()  
+    // Exibe os resultados
+
+---
+To be continue...
