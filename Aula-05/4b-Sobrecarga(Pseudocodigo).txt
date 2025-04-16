@@ -1,0 +1,25 @@
+Classe CalculadoraArea
+    Método calcularArea(lado)
+        Retornar lado * lado
+    fimMetodo
+
+    Método calcularArea(base, altura)
+        Retornar base * altura
+    fimMetodo
+
+    Método calcularArea(raio, Pi)
+        Retornar Pi * raio * raio
+    fimMetodo
+fimClasse
+
+Função principal()
+    Criar objeto calculadora como CalculadoraArea
+
+    Declarar areaQuadrado como calculadora.calcularArea(4)
+    Declarar areaRetangulo como calculadora.calcularArea(5, 3)
+    Declarar areaCirculo como calculadora.calcularArea(2, 3.14)
+
+    Escrever "Área do quadrado: " + areaQuadrado
+    Escrever "Área do retângulo: " + areaRetangulo
+    Escrever "Área do círculo: " + areaCirculo
+fimFunção

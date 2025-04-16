@@ -1,0 +1,33 @@
+Classe abstrata Notificacao
+	Método enviarMensagem()
+		Escrever "Enviando notificação..."
+	fimMetodo
+fimClasse
+
+Classe EmailNotificacao herda de Notificacao
+	Sobrescreve Método enviarMensagem()
+		Escrever "Enviando notificação por e-mail..."
+	fimMetodo
+fimClasse
+
+Classe SMSNotificacao herda de Notificacao
+	Sobrescreve Método enviarMensagem()
+		Escrever "Enviando notificação por SMS..."
+	fimMetodo
+fimClasse
+
+Função principal()
+	Declarar n1 como EmailNotificacao
+	Declarar n2 como SMSNotificacao
+	Escrever n1.enviarMensagem()
+	Escrever n2.enviarMensagem()
+	
+	/*  
+	Criar lista de Notificacao
+	Adicionar EmailNotificacao
+	Adicionar SMSNotificacao
+
+	Para cada notificacao na lista
+		Chamar notificacao.enviarMensagem()
+	*/
+fimFunção
