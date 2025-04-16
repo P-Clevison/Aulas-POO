@@ -45,7 +45,9 @@ Tarefas:
 - adicionarTime(Time time)  
     // Cadastra o time no Torneio
 - agendarPartidas()  
-    // Agenda partidas entre os times 1 e 2, 3 e 4, vencedor 1 x vencedor 2
+    // Agenda partidas entre os times 1 e 2, 3 e 4, vencedor 1 x vencedor 2  
+    // (O primeiro time será sempre o time da Casa e o segundo sempre o visitante)
+    // (O terceiro lugar será determinado pelo saldo de gols)
 - iniciarTorneio()  
     // Realiza as partidas entre os times e preenche os atributos do Torneio
 - exibirClassificacao()  
