@@ -19,6 +19,8 @@ Tarefas:
 - Construtor
 - registrarVitoria(int golsFeitos, int golsSofridos)
 - registrarDerrota(int golsFeitos, int golsSofridos)
+- getSaldoGols  
+// calcula golsMarcados - golsSofridos
 - Getters/Setters (opcional)
 
 #### 2. Criar a classe Partida
