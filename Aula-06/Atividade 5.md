@@ -47,7 +47,7 @@ Tarefas:
 - adicionarTime(Time time)  
     // Cadastra o time no Torneio
 - agendarPartidas()  
-    // Agenda partidas entre os times 1 e 2, 3 e 4, vencedor 1 x vencedor 2  
+    // Agenda partidas entre os times  
     // (O primeiro time será sempre o time da Casa e o segundo sempre o visitante)
     // (O terceiro lugar será determinado pelo saldo de gols)
 - iniciarTorneio()  
@@ -56,4 +56,17 @@ Tarefas:
     // Exibe os resultados
 
 ---
-To be continue...
+### Etapa 2: Simulação do Torneio
+Tarefas:
+- Instanciar 4 times
+- Adicioná-los ao torneio
+- Agendar todas as partidas (1 e 2, 3 e 4, vencedor 1 x vencedor 2)
+- Simular os resultados com o método jogarPartida()
+- Atualizar os dados dos times
+
+
+---
+### Etapa 3: Exibição dos Resultados
+Tarefas:
+- Mostrar o ranking dos 3 vencedores
+- (Opcional) Mostrar classificação final (nome, vitórias, derrotas, gols marcados, gols sofridos, saldo de gols)
