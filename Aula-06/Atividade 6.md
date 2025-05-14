@@ -7,18 +7,19 @@ Requisitos:
 1. Crie uma classe abstrata Funcionario com os seguintes atributos:
 
     - nome (String)
-    - salario_base (float)
+    - salario_base (double)
     - Um método abstrato calcular_salario() que retorna o salário final.
 
 2. Crie duas subclasses de Funcionario:
 
     **FuncionarioCLT:**
-    - Possui um atributo adicional beneficio (float).
+    - Possui um atributo adicional beneficio (double).
     - O salário final é salario_base + beneficio.
 
     **FuncionarioPJ:**
-    - Possui um atributo adicional horas_trabalhadas (int) e valor_hora (float).
+    - Possui um atributo adicional horas_trabalhadas (int) e valor_hora (double).
     - O salário final é horas_trabalhadas * valor_hora.
+    - Um Método calcular_salario(double imposto) para calcular o salário descontando o percentual pago de imposto.
 
 3. Crie uma classe Departamento que possui:
 
