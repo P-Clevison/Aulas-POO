@@ -3,7 +3,7 @@
 3. Criar classe Carro
 	- Atributo público Modelo String
 	- Atributo privado Ligado Boolean
-	- Atributo privado quilometragem
+	- Atributo privado Quilometragem Int
 	- Métodos getter e setter para Ligado e quilometragem
 	- Método publico dirigir (que deve incrementar a quilometragem em 1km)
 	- Método Construtor
