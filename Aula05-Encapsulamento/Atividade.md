@@ -19,5 +19,5 @@
 6. Codificar os métodos ligar e desligar motor (mudando motorLigado)
 7. Codificar os métodos acelerar e frear (validando motorLigado, parado e variando a velocidae em 5km/h)
 8. Codificar os métodos subir e descer pasageiro (validando qtdPassageiros com lotacao)
-9. Instanciar um objet e simular as situações de alguns dos métodos imprimindo valores para validar
+9. Instanciar um objeto e simular as situações de alguns dos métodos imprimindo valores para validar
 
