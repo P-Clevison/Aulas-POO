@@ -8,7 +8,7 @@ public class Estojo {
 		
 		Caneta bic = new Caneta("Azul", 100, true);
 		System.out.println(bic.cor);
-		/*
+		int x = bic.getCarga();
 		bic.destampar();
 		
 		if (bic.tampada == true) {
