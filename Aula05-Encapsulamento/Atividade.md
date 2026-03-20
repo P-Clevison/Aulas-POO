@@ -7,7 +7,7 @@
     FLoat velocidade
     Int qtdPassageiros
     Int lotacao
-3. Criar métodos Contrutor, Getters e Setters
+3. Criar métodos Construtor, Getters e Setters
 4. Criar uma interface Veiculo com os seguintes métodos:
     ligarMotor()
     desligarMotor()
